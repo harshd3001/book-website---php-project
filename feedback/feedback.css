@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap');
+body{
+    background-color: #252529 ;
+    text-align: center;
+    color: #fff;
+}
+.form{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+}
+.container{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    height: 80%;
+    border-radius: 5px;
+    margin: 1% 20% 0% 20%;
+    border: 1px solid #fff;
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+    background: url("../img/b5.jpg");
+    background-size: cover;
+}
+input[type=text], textarea ,input[type=email] {
+    width: 90%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  textarea{
+      height: 220px;
+      width: 90%;
+  }
+  label{
+      display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: rgb(241, 46, 46)
+  }
