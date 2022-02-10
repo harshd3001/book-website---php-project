@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="feedback.css">
+    <title>Crossminds</title>
+</head>
+<body>
+    <div class="container">
+    <form action="../form.php" method="POST"><b class="form">Feedback Form</b><br>
+        <div style="padding-top: 40px;"><label for="name">Name :</label>
+        <input type="text" id="name" name="name" placeholder="Your name.." class="form-control" minlength="1" required></div><br>
+        <div><label for="email">Email :</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="Email-id@gmail.com" required></div><br>
+        <div><label for="Suggestion">Tell us how to improve:-</label>
+        <textarea name="sugg" id="sugg" class="form-control" placeholder="write something..." minlength="1" required></textarea></div>
+        <input type="submit" value="Submit">
+    </form> 
+    </div>
+</body>
+</html>
